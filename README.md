@@ -4,6 +4,8 @@ Based on https://playwright.dev/dotnet/docs/intro#first-test
 
 https://playwright.dev/dotnet/docs/api/class-playwright#playwright-chromium
 
+**You can clone this repo or you can follow the instructions below in your own project.**
+
     # Create new project.
     dotnet new mstest -n PlaywrightTests-MsTest
     cd PlaywrightTests-MsTest
