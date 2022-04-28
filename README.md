@@ -56,3 +56,7 @@ Edit UnitTest1.cs file.
             await browser.CloseAsync();
         }
     }
+    
+Run the test
+
+        dotnet test
