@@ -6,6 +6,16 @@ https://playwright.dev/dotnet/docs/api/class-playwright#playwright-chromium
 
 **You can clone this repo or you can follow the instructions below in your own project.**
 
+If you clone you must go to the root of the project and run:
+
+    # Install required browsers
+    pwsh bin\Debug\netX\playwright.ps1 install
+    
+    # If the pwsh command does not work (throws TypeNotFound), make sure to use an up-to-date version of PowerShell.
+    dotnet tool update --global PowerShell
+    
+If you want to build your own then follow instructions below:
+
     # Create new project.
     dotnet new mstest -n PlaywrightTests-MsTest
     cd PlaywrightTests-MsTest
